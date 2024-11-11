@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    background-color: rgb(28 ,33 ,49 ,100%);
+    color:white;
+    overflow:auto
+}
+.main{
+   height:40rem;
+   display: flex;
+   overflow: auto;
+}
+.maincontent{
+    margin-top: 70px;
+    /*background-color: bisque;*/
+    flex:1;
+    flex-wrap:wrap;
+    overflow: auto;
+
+}
+.nav{
+    position: fixed;
+    top:0px;
+    width:100%;
+    height: 50px;
+    /*background-color: brown;*/
+}
+.nav-content{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+.link{
+    display :flex;
+    margin-right:3.5rem;
+}
+.link  a{
+    margin:10px;
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    opacity: 0.8;
+    
+}
+ /*.maincontent .image{
+    background-color: black;
+    height: 363px;
+    width: 363px;
+    margin-top:67px;
+    margin-bottom: 1749px;
+    margin-right:69.3px;
+    margin-left: 1000px;
+
+}
+.maincontent .about{
+    line-heiabght: normal;
+}*/
+.about{
+    display :flex;
+    flex-direction: row;
+    justify-content : space-between;
+    align-items: center;
+}
+.about .image{
+    background-color: black;
+    margin-right:100px;
+    height:363.422px;
+    width:363.422;
+    border-radius:50%;
+    border: 0.8rem solid #01EEFF;
+    margin-top:3rem;
+}
+img{
+    height:363.422px;
+    width:363.422px;
+    border-radius: 50%;
+}
+.abouttext{
+    display: flex;
+    flex-direction: column;
+    flex:wrap;
+    margin-left:70px;
+    line-height: 3px;
+    margin-top:3rem;
+}
+button{
+    width:378PX;
+    height:97.162PX;
+    border-radius:20px;
+    background-color: #01EEFF;
+    color:white;
+    transition:0s;
+}
+.portfolio{
+    margin-left: 3.9rem;
+
+}
+h4{
+    font-size: 32px;
+    line-height:-2px;
+}
+h1{
+    font-size: 71px;
+}
+p{
+    font-size:20px;
+
+}
+button:hover{
+    box-shadow: 0px 0px 20px;
+}
+.link a:hover{
+    opacity :1;
+}
+.into{
+    background-color: black;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    height:100px;
+    margin-top:1000px;
+}
